@@ -1,6 +1,6 @@
 # widendatatype
 collated information about how to widen entity key from int to bigint
-## Trying out Microsoft AdventureWork2016.bak file in AWS EC2 instance
+## Using Microsoft AdventureWork2016.bak file in AWS EC2 instance
 - restore the backup file in EC2 Microsoft SQL Server
 - change entity id from int to bigint
 ## scripts
