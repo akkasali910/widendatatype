@@ -58,6 +58,7 @@ target_server_port = 5432
 - $ terraform apply "tfplan"
 
 ## Folder structure
+```
 .
 ├── README.md
 ├── data_sources.tf
@@ -73,3 +74,4 @@ target_server_port = 5432
 │       └── task_settings
 │           └── rpt_task.json
 └── variables.tf
+```
