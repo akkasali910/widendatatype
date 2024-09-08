@@ -15,4 +15,3 @@ Added new folder "terraform-provisioning" which conatins Terraform scripts for c
 - DMS
 - Aurora PostgreSQL database with babelfish extension
 - VPC
-- 
