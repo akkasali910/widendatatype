@@ -1,0 +1,40 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": "147428558",
+            "rule-name": "147428558",
+            "object-locator": {
+                "schema-name": "%",
+                "table-name": "Customer"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "146112348",
+            "rule-name": "146112348",
+            "rule-target": "schema",
+            "object-locator": {
+                "schema-name": "%"
+            },
+            "rule-action": "add-prefix",
+            "value": "targetdb_",
+            "old-value": null
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "146111885",
+            "rule-name": "146111885",
+            "rule-target": "table",
+            "object-locator": {
+                "schema-name": "%",
+                "table-name": "%"
+            },
+            "rule-action": "convert-lowercase",
+            "value": null,
+            "old-value": null
+        }
+    ]   
+} 
