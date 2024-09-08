@@ -10,4 +10,9 @@ scripts are included in this repo
 - edit script and replace [int] to [bigint]
 - check database name (most likely need to replace it with your database name)
 - import data into your new database
-
+## terraform 
+Added new folder "terraform-provisioning" which conatins Terraform scripts for creating AWS services:
+- DMS
+- Aurora PostgreSQL database with babelfish extension
+- VPC
+- 
